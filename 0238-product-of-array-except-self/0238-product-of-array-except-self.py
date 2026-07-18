@@ -10,9 +10,3 @@ class Solution:
         for i in range(len(nums)):
             answer.append(left[i] * right[i])
         return answer
-
-    
-             
-
-
-
