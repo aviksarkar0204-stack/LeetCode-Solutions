@@ -9,6 +9,3 @@ class Solution:
             if profit > max_profit:
                 max_profit = profit
         return max_profit
-
-
-        
