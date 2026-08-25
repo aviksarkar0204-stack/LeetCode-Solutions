@@ -6,13 +6,11 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        // store (value, original_index) pairs
         vector<pair<int,int>> indexed;
         for (int i = 0; i < nums.size(); i++) {
             indexed.push_back({nums[i], i});
         }
 
-        // sort by value (pair sorts by first element by default)
         sort(indexed.begin(), indexed.end());
 
         int left = 0;
